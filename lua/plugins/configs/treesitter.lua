@@ -1,20 +1,33 @@
 local options = {
   ensure_installed = {
-    "lua",
     "vim",
-    "vimdoc",
+    "lua",
+    "bash",
+    "json",
+    "json5",
+    "jq",
+    "yaml",
+    "java",
+    "dockerfile",
+    "regex",
+    "toml",
 
-    --web-dev
-    "html",
-    "css",
+    -- Markdown
+    "markdown",
+    "markdown_inline",
+    -- Go Lang
+    "go",
+    "gomod",
+    "gowork",
+    "gosum",
+
+    -- Web Dev
     "javascript",
     "typescript",
     "tsx",
-    "json",
-
-    -- low level
-    "c",
-    "zig",
+    "html",
+    "astro",
+    "css",
   },
 
   highlight = {

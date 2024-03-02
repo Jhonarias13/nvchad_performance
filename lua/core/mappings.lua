@@ -223,7 +223,7 @@ M.lspconfig = {
       "Goto next",
     },
 
-    ["<leader>q"] = {
+    ["<leader>xx"] = {
       function()
         vim.diagnostic.setloclist()
       end,
@@ -251,7 +251,7 @@ M.lspconfig = {
       "List workspace folders",
     },
 
-    ["<leader>xx"] = {
+    ["<leader>fd"] = {
       function()
         vim.diagnostic.open_float { border = "rounded" }
       end,

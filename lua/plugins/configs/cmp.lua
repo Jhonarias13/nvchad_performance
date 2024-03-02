@@ -105,11 +105,17 @@ local options = {
     }),
   },
   sources = {
-    { name = "nvim_lsp" },
+    { name = "copilot",   max_item_count = 2, },
+    {
+      name = "nvim_lsp",
+      keyword_length = 2,
+      max_item_count = 10,
+    },
     { name = "luasnip" },
+    { name = "treesitter" },
     { name = "buffer" },
     { name = "nvim_lua" },
-    { name = "path" },
+    { name = "path",      max_item_count = 2, },
   },
 }
 
